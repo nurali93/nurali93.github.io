@@ -1,0 +1,63 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Muhammad Nurali
+tagline: "<a target='_blank' href='#'>I'm the eldest.</a> I don't lie, I never will!"
+picture: testing.jpg #keep a 100x100 image inside images folder.
+email: hello@email.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://nuralihusain.com/" # the base hostname & protocol for your site
+brand-color: '#ffc966'
+permalink: ':title/'
+
+# Footer
+# credits: webjeda #credits on the footer
+version: 1.0
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+sass:
+  style: compressed
+
+disqus-shortname: nurali93
+analytics: UA-109364742-1
+
+include: [_pages]
+
+
+
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+
+prose:
+  rooturl: ''
+  siteurl: 'http://prose.github.io/starter/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+
+
+gems: [jekyll-paginate, jekyll-seo-tag]
