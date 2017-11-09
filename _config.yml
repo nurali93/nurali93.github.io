@@ -14,7 +14,7 @@ description: a geek # this means to ignore newlines until "baseurl:"
 #baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://nuralihusain.com # the base hostname & protocol for your site
 #url: http://localhost:4000/ #remove hash to test on local
-brand-color: '#e67e22'
+brand-color: '#e74c3c'
 permalink: ':categories/:year/:month/:day/:title/'
 
 # Footer
