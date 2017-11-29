@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Drop me a Message!
+title: Drop me a Message! (Yeah it's ugly i know)
 permalink: /contact/
 ---
 
